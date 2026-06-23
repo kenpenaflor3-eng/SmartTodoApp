@@ -4,12 +4,26 @@
     "slug": "smarttodoapp",
     "version": "1.0.0",
     "sdkVersion": "49.0.0",
-    "platforms": ["ios","android","web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.andot12.smarttodoapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bf486412-2114-4b9a-9e39-f2da128df875"
+      }
     }
   }
 }

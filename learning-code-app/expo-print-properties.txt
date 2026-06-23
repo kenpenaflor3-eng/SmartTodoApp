@@ -1,0 +1,199 @@
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-updates-gradle-plugin:checkKotlinGradlePluginConfigurationErrors
+> Task :expo-updates-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-updates-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-updates-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-updates-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-updates-gradle-plugin:classes UP-TO-DATE
+> Task :expo-updates-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+ ??  [33mApplying gradle plugin[0m '[32mexpo-updates-gradle-plugin[0m' (expo-updates@0.25.28)
+
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:compileGroovy UP-TO-DATE
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-application[0m (5.9.1)
+  - [32mexpo-asset[0m (10.0.10)
+  - [32mexpo-constants[0m (16.0.2)
+  - [32mexpo-eas-client[0m (0.12.0)
+  - [32mexpo-file-system[0m (17.0.1)
+  - [32mexpo-font[0m (12.0.10)
+  - [32mexpo-json-utils[0m (0.13.1)
+  - [32mexpo-keep-awake[0m (13.0.2)
+  - [32mexpo-manifests[0m (0.14.3)
+  - [32mexpo-modules-core[0m (1.12.26)
+  - [32mexpo-notifications[0m (0.28.19)
+  - [32mexpo-print[0m (56.0.3)
+  - [32mexpo-splash-screen[0m (0.27.7)
+  - [32mexpo-structured-headers[0m (3.8.0)
+  - [32mexpo-updates[0m (0.25.28)
+
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.2.1
+Gradle: 8.8
+
+> Task :expo-print:properties
+
+------------------------------------------------------------
+Project ':expo-print'
+------------------------------------------------------------
+
+AGP_INTERNAL__MIN_PLUGIN_VERSION_CHECK_STARTED: true
+EX_DEV_CLIENT_NETWORK_INSPECTOR: true
+allprojects: [project ':expo-print']
+android: extension 'android'
+android.enableJetifier: true
+android.enablePngCrunchInReleaseBuilds: true
+android.useAndroidX: true
+androidComponents: extension 'androidComponents'
+ant: org.gradle.api.internal.project.DefaultAntBuilder@2d2bc3b
+antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@5224cbee
+archivesBaseName: expo-print
+artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@6813644a
+asDynamicObject: DynamicObject for project ':expo-print'
+autoTargetJvmDisabled: false
+base: extension 'base'
+baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@266dd961
+buildDir: C:\ITE109\learning-code-app\node_modules\expo-print\android\build
+buildFile: C:\ITE109\learning-code-app\node_modules\expo-print\android\build.gradle
+buildOutputs: BaseVariantOutput container
+buildPath: :
+buildScriptSource: org.gradle.groovy.scripts.TextResourceScriptSource@31498af3
+buildToolsVersion: 34.0.0
+buildTreePath: :expo-print
+buildscript: org.gradle.api.internal.initialization.DefaultScriptHandler_Decorated@45c64c8f
+childProjects: {}
+childProjectsUnchecked: {}
+class: class org.gradle.api.internal.project.DefaultProject_Decorated
+classLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@3f8efd74
+clean: task ':expo-print:clean'
+compileSdkVersion: 34
+components: SoftwareComponent container
+configurationActions: org.gradle.configuration.project.DefaultProjectConfigurationActionContainer@36045149
+configurationTargetIdentifier: org.gradle.configuration.ConfigurationTargetIdentifier$1@7eea2039
+configurations: configuration container
+convention: org.gradle.internal.extensibility.DefaultConvention@3892305
+crossProjectModelAccess: org.gradle.api.internal.project.DefaultCrossProjectModelAccess@74dcb5cf
+defaultArtifacts: extension 'defaultArtifacts'
+defaultTasks: []
+deferredProjectConfiguration: org.gradle.api.internal.project.DeferredProjectConfiguration@60463c04
+dependencies: org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler_Decorated@4f8223dd
+dependencyFactory: org.gradle.api.internal.artifacts.DefaultDependencyFactory@559a023
+dependencyLocking: org.gradle.internal.locking.DefaultDependencyLockingHandler_Decorated@143a0f8a
+dependencyMetaDataProvider: org.gradle.internal.service.scopes.ProjectScopeServices$ProjectBackedModuleMetaDataProvider@454da715
+depth: 1
+description: null
+detachedState: false
+displayName: project ':expo-print'
+distsDirName: distributions
+distsDirectory: extension 'base' property 'distsDirectory'
+docsDir: C:\ITE109\learning-code-app\node_modules\expo-print\android\build\docs
+docsDirName: docs
+expo.gif.enabled: true
+expo.useLegacyPackaging: false
+expo.webp.animated: false
+expo.webp.enabled: true
+expoProvidesDefaultConfig: KotlinExpoModulesCorePlugin$_apply_closure1@5b6e15f5
+ext: org.gradle.internal.extensibility.DefaultExtraPropertiesExtension@7000d043
+extensions: org.gradle.internal.extensibility.DefaultConvention@3892305
+fileOperations: org.gradle.api.internal.file.DefaultFileOperations@f25bc9d
+fileResolver: org.gradle.api.internal.file.BaseDirFileResolver@33d965fe
+gradle: build 'Learning Code'
+group: host.exp.exponent
+hermesEnabled: true
+identityPath: :expo-print
+inheritedScope: org.gradle.internal.extensibility.ExtensibleDynamicObject$InheritedDynamicObject@18330fcd
+internalStatus: property(java.lang.Object, fixed(class java.lang.String, integration))
+isolated: DefaultIsolatedProject{project ':expo-print'}
+java: extension 'java'
+javaToolchains: extension 'javaToolchains'
+kotlin.plugin.loaded.in.projects.1.9.22: :app
+kotlinVersion: 1.9.23
+layout: org.gradle.api.internal.file.DefaultProjectLayout@4c24de51
+libsDirName: libs
+libsDirectory: extension 'base' property 'libsDirectory'
+listenerBuildOperationDecorator: org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator@34aaa4be
+logger: org.gradle.internal.logging.slf4j.OutputEventListenerBackedLogger@34e79881
+logging: org.gradle.internal.logging.services.DefaultLoggingManager@6046ad0b
+minSdkVersion: 23
+model: project ':expo-print'
+modelIdentityDisplayName: null
+modelRegistry: org.gradle.model.internal.registry.DefaultModelRegistry@a7a2104
+name: expo-print
+ndkVersion: 26.1.10909125
+newArchEnabled: false
+normalization: org.gradle.normalization.internal.DefaultInputNormalizationHandler_Decorated@6b14eba1
+objects: org.gradle.api.internal.model.DefaultObjectFactory@63bf55d2
+org.gradle.jvmargs: -Xmx2048m -XX:MaxMetaspaceSize=512m
+owner: project ':expo-print'
+parent: root project 'Learning Code'
+parentIdentifier: root project 'Learning Code'
+path: :expo-print
+pluginContext: false
+pluginManager: org.gradle.api.internal.plugins.DefaultPluginManager_Decorated@36c4925b
+plugins: [org.gradle.api.plugins.HelpTasksPlugin$Inject@14835795, org.gradle.buildinit.plugins.BuildInitPlugin$Inject@5e5be0a9, org.gradle.buildinit.plugins.WrapperPlugin$Inject@635c5533, com.android.build.gradle.internal.plugins.VersionCheckPlugin@5ee6aba2, org.gradle.language.base.plugins.LifecycleBasePlugin$Inject@1f96af30, org.gradle.api.plugins.BasePlugin$Inject@6fb6c1bc, org.gradle.api.plugins.JvmEcosystemPlugin$Inject@2a710a12, org.gradle.api.plugins.ReportingBasePlugin$Inject@6b836e99, org.gradle.api.plugins.JvmToolchainsPlugin$Inject@7f8c7645, org.gradle.api.plugins.JavaBasePlugin$Inject@5eefc853, com.android.build.gradle.api.AndroidBasePlugin@23b7f46e, com.android.build.gradle.internal.plugins.LibraryPlugin@6024dede, com.android.build.gradle.LibraryPlugin@304bb52e, ExpoModuleGradlePlugin@6fc1f169]
+privateReact: extension 'privateReact'
+processOperations: org.gradle.process.internal.DefaultExecActionFactory$DecoratingExecActionFactory@6dedf786
+project: project ':expo-print'
+projectConfigurator: org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator@21684079
+projectDir: C:\ITE109\learning-code-app\node_modules\expo-print\android
+projectEvaluationBroadcaster: ProjectEvaluationListener broadcast
+projectEvaluator: org.gradle.configuration.project.LifecycleProjectEvaluator@38609043
+projectPath: :expo-print
+properties: {...}
+providers: org.gradle.api.internal.provider.DefaultProviderFactory_Decorated@2aa48b5e
+reactAndroidLibs: extension 'reactAndroidLibs'
+reactNativeArchitectures: armeabi-v7a,arm64-v8a,x86,x86_64
+reporting: extension 'reporting'
+repositories: repository container
+resources: org.gradle.api.internal.resources.DefaultResourceHandler@2877084b
+rootDir: C:\ITE109\learning-code-app\android
+rootProject: root project 'Learning Code'
+rootScript: false
+script: false
+scriptHandlerFactory: org.gradle.api.internal.initialization.DefaultScriptHandlerFactory@4b7feeb4
+scriptPluginFactory: org.gradle.configuration.ScriptPluginFactorySelector@77a18d10
+serviceRegistryFactory: org.gradle.internal.service.scopes.BuildScopeServiceRegistryFactory@79d106c1
+services: Project services
+sourceCompatibility: 17
+sourceSets: SourceSet container
+standardOutputCapture: org.gradle.internal.logging.services.DefaultLoggingManager@6046ad0b
+state: project state 'EXECUTED'
+status: integration
+subprojects: []
+targetCompatibility: 17
+targetSdkVersion: 34
+taskDependencyFactory: org.gradle.api.internal.tasks.DefaultTaskDependencyFactory@69747ce0
+taskThatOwnsThisObject: null
+tasks: task set
+testReportDir: C:\ITE109\learning-code-app\node_modules\expo-print\android\build\reports\tests
+testReportDirName: tests
+testResultsDir: C:\ITE109\learning-code-app\node_modules\expo-print\android\build\test-results
+testResultsDirName: test-results
+version: 56.0.3
+versionCatalogs: extension 'versionCatalogs'
+
+BUILD SUCCESSFUL in 36s
+20 actionable tasks: 4 executed, 16 up-to-date
