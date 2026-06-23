@@ -1,5 +1,6 @@
 {
   "expo": {
+    "sdkVersion": "51.0.0",
     "name": "Learning Code",
     "slug": "learning-code-app",
     "version": "1.0.0",
@@ -8,14 +9,18 @@
     ],
     "scheme": "learningcodeapp",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.learningcode.app"
+      "package": "com.learningcode.app",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -26,6 +31,17 @@
     "experiments": {
       "tsconfigPaths": true,
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5d191012-47ca-4c40-8d4d-f6fe2df10b2f"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5d191012-47ca-4c40-8d4d-f6fe2df10b2f"
     }
   }
 }
